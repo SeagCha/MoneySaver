@@ -1,0 +1,15 @@
+[project]
+name = "telegram-money-saver-bot"
+version = "0.1.0"
+description = "Телеграм-бот для контролья актуальных предложений на маркетплейсах, на основе телеграмм-каналов."
+authors = [{ name = "Eugene Chayka", email = "chayka2004@yandex.ru" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "telethon>=1.39.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
